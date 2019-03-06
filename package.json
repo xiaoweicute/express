@@ -1,17 +1,14 @@
 {
-  "name": "node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "name": "node-js-getting-started",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node server.js"
   },
-  "engines":{"node":"10.x"},
-  "author": "",
-  "license": "ISC",
-  "dependencies":{
-    "express":"^4.16.2",
-    "leanengine":"^3.3.2"
+  "engines": {
+      "node": "8.x"
+  },
+  "dependencies": {
+      "express": "4.12.3",
+      "leanengine": "^3.0.2",
+      "leancloud-storage": "^3.3.1"
   }
 }
